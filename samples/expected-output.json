@@ -1,0 +1,75 @@
+[
+  {
+    "seq": 0,
+    "state": "listening",
+    "action": "input_received",
+    "kind": "transcript"
+  },
+  {
+    "seq": 1,
+    "state": "tool_pending",
+    "action": "availability_returned",
+    "count": 2
+  },
+  {
+    "seq": 2,
+    "state": "speaking",
+    "action": "speech_started",
+    "text": "Available demo slots: 2030-01-10T10:00:00Z, 2030-01-10T14:00:00Z"
+  },
+  {
+    "seq": 3,
+    "state": "listening",
+    "action": "speech_finished"
+  },
+  {
+    "seq": 4,
+    "state": "listening",
+    "action": "input_received",
+    "kind": "confirm_booking"
+  },
+  {
+    "seq": 5,
+    "state": "tool_pending",
+    "action": "booking_confirmed",
+    "receipt": "demo-001"
+  },
+  {
+    "seq": 6,
+    "state": "speaking",
+    "action": "speech_started",
+    "text": "Your demo booking is confirmed: demo-001."
+  },
+  {
+    "seq": 7,
+    "state": "listening",
+    "action": "speech_finished"
+  },
+  {
+    "seq": 8,
+    "state": "listening",
+    "action": "input_received",
+    "kind": "transcript"
+  },
+  {
+    "seq": 9,
+    "state": "listening",
+    "action": "handoff_requested"
+  },
+  {
+    "seq": 10,
+    "state": "speaking",
+    "action": "speech_started",
+    "text": "Please contact a human. This demo cannot place calls or provide medical advice."
+  },
+  {
+    "seq": 11,
+    "state": "listening",
+    "action": "speech_finished"
+  },
+  {
+    "seq": 12,
+    "state": "closed",
+    "action": "session_closed"
+  }
+]

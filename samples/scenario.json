@@ -1,0 +1,18 @@
+[
+  {
+    "kind": "transcript",
+    "text": "What is available?"
+  },
+  {
+    "kind": "confirm_booking",
+    "slot": "2030-01-10T10:00:00Z",
+    "request_id": "synthetic-001"
+  },
+  {
+    "kind": "transcript",
+    "text": "I need a human"
+  },
+  {
+    "kind": "hangup"
+  }
+]
